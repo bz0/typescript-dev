@@ -1,6 +1,6 @@
 # typescript-dev
 
-typescriptの開発環境のコマンド実行手順です。
+typescriptの開発環境構築のコマンド実行手順です。
 Typescript+mocha+powerassert  
 
 # バージョン
