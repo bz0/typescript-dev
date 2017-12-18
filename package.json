@@ -1,0 +1,31 @@
+{
+  "name": "typescript-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bz0/typescript-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bz0/typescript-dev/issues"
+  },
+  "homepage": "https://github.com/bz0/typescript-dev#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.2.17",
+    "@types/mocha": "^2.2.44",
+    "@types/power-assert": "^1.4.29",
+    "istanbul": "^0.4.5",
+    "jquery": "^3.2.1",
+    "mocha": "^4.0.1",
+    "power-assert": "^1.4.4",
+    "ts-node": "^4.0.2",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1"
+  }
+}
