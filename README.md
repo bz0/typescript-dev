@@ -99,4 +99,17 @@ https://github.com/gotwarlost/istanbul/issues/90
 http://yukidarake.hateblo.jp/entry/2015/06/29/202652
 
 
+## webpack
 
+ブラウザで実行できるように1つのjsファイルにまとめます。  
+
+```
+$ npm install webpack --save-dev
+$ npm install webpack --global
+$ webpack src/main.js htdocs/bundle.js
+```
+
+```
+$ npm install ts-loader --save-dev
+$ webpack
+```

@@ -1,7 +1,4 @@
-import {Person} from './Person';
-import * as $ from 'jquery';
+import * as moment from 'moment';
 
-var person: Person = new Person(1, "yoko");
-$(() => {
-    $('body').html('彼は' + person.name + 'です。');
-});
+var now = moment().format('D MMM YYYY');
+console.log(now);
